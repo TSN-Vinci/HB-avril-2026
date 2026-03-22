@@ -1,1 +1,237 @@
-Harmonie Bischheim - Programme concert du 25 avril 2026
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme du Concert - Harmonie Municipale</title>
+    <style>
+        /* Styles CSS intégrés */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            opacity: 0.9;
+        }
+
+        .concert-info {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .info-item {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .info-item h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        .program {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .program-section {
+            margin-bottom: 2rem;
+        }
+
+        .program-section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .piece {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .piece-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .piece-composer {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+
+        .piece-details {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .concert-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Programme du Concert</h1>
+            <p class="subtitle">Harmonie Municipale de [Ville]</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="concert-info">
+            <div class="info-item">
+                <h2>Informations</h2>
+                <p><strong>Date :</strong> Samedi 25 avril 2026</p>
+                <p><strong>Heure :</strong> 20h30</p>
+                <p><strong>Lieu :</strong> Auditorium du Conservatoire de Strasbourg</p>
+                <p><strong>Direction :</strong> Romuald Jallet</p>
+            </div>
+
+            <div class="info-item">
+                <h2>Tarifs</h2>
+                <p><strong>Gratuit :</strong> entrée plateau</p>
+            </div>
+        </section>
+
+        <section class="program">
+            <h2>Programme musical</h2>
+
+            <div class="program-section">
+                <h3>Première partie</h3>
+
+                <div class="piece">
+                    <div class="piece-title">Ouverture "La Force du Destin"</div>
+                    <div class="piece-composer">Giuseppe Verdi (1813-1901)</div>
+                    <div class="piece-details">Arrangement pour harmonie par [Arrangeur]</div>
+                </div>
+
+                <div class="piece">
+                    <div class="piece-title">Suite de "West Side Story"</div>
+                    <div class="piece-composer">Leonard Bernstein (1918-1990)</div>
+                    <div class="piece-details">Extraits : America, Tonight, Maria</div>
+                </div>
+
+                <div class="piece">
+                    <div class="piece-title">Concerto pour clarinette</div>
+                    <div class="piece-composer">Carl Maria von Weber (1786-1826)</div>
+                    <div class="piece-details">Soliste : [Nom du clarinettiste]</div>
+                </div>
+            </div>
+
+            <div class="program-section">
+                <h3>Deuxième partie</h3>
+
+                <div class="piece">
+                    <div class="piece-title">Symphonie n°3 "Héroïque"</div>
+                    <div class="piece-composer">Ludwig van Beethoven (1770-1827)</div>
+                    <div class="piece-details">Arrangement pour harmonie du 1er mouvement</div>
+                </div>
+
+                <div class="piece">
+                    <div class="piece-title">Selections from "Les Misérables"</div>
+                    <div class="piece-composer">Claude-Michel Schönberg (né en 1944)</div>
+                    <div class="piece-details">Extraits : At the End of the Day, I Dreamed a Dream, One Day More</div>
+                </div>
+
+                <div class="piece">
+                    <div class="piece-title">Marche "Stars and Stripes Forever"</div>
+                    <div class="piece-composer">John Philip Sousa (1854-1932)</div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about">
+            <h2>À propos de l'Harmonie Municipale</h2>
+            <p>Fondée en 1965, l'Harmonie de Bischheim est composée de 45 musiciens amateurs et professionnels. Elle se produit régulièrement lors des cérémonies officielles, des fêtes locales et des concerts thématiques.</p>
+            <p>Notre répertoire couvre tous les styles musicaux, des grands classiques aux œuvres contemporaines, en passant par les musiques de film et les arrangements populaires.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Harmonie de Bischheim. Tous droits réservés.</p>
+            <p>Contact : <a href="mailto:contact@harmonie-ville.fr" style="color: white;">contact@harmonie-ville.fr</a></p>
+        </div>
+    </footer>
+</body>
+</html>
